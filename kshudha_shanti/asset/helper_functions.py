@@ -241,6 +241,7 @@ def purchase_order_honoured(purchase_order_id, item_list):
     except Exception as e:
         print('Error in purchase_order_honoured: ', e)
         return False
+        
 
 def create_stock_transfer_request_draft(source_department_id, dest_department_id, item_list):
     try:
